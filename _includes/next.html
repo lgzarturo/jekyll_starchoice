@@ -1,0 +1,13 @@
+{% if page.next_link %}
+<a href="{{ page.next_link }}">
+  <div class="row panel--full-c1 pwf color--panel-v5">
+    <div class="container well--sm-block">
+      <div class="col-md-12">
+        <small>¿Que sigue?</small>
+        <h3>{{ page.next_title }}<i class="fa fa-arrow-right fa-2x pull-right"></i></h3>
+        <p>{{ page.next_description }}</p>
+      </div>
+    </div>
+  </div>
+</a>
+{% endif %}

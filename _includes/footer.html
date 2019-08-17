@@ -1,0 +1,45 @@
+
+<div id="footer--section">
+  <div id="footer--company">
+    <div class="container">
+      <div class="col-md-12">
+
+        <p> 
+          <strong>Número de Autorización y Registro:</strong> STPS-ACT-HCC23-0014 <br>
+          <strong>Escribenos:</strong> <a id="footer-email" href="mailto:info@starchoice.com.mx?Subject=Hey,%20StarChoice!">info@starchoice.com.mx</a> <br> 
+          <strong>Llamanos:</strong> <a id="footer-phone" href="tel:+529981932070">+52 (998) 193-2070</a> 
+        </p>
+
+        <div id="footer--social">
+          {% include social-icons.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer--menu">
+    <div class="container">
+      <div class="col-md-12">
+
+        {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+  <div id="footer--copy">
+    <div class="container">
+      <div class="col-md-12">
+        <footer>
+          Copyright &copy; 2012 <a href="http://grupoargos.com.mx" target="_blank">Grupo Argos</a> Todos los derechos reservados.
+        </footer>
+      </div>
+    </div>
+  </div>    
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

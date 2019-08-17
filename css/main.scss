@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$title-font-family: 'Raleway', Georgia, sans-serif;
+$title-font-weight: 900;
+$base-font-family: 'Lato', Helvetica, sans-serif;
+$base-font-size:   22px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$xsmall-font-size: $base-font-size * 0.775;
+$xxsmall-font-size: $base-font-size * 0.550;
+$base-line-height: 1.4;
+
+$block-color1: #7D4B80;
+$block-color1-light: lighten($block-color1, 20%);
+$block-color2: #567EA9;
+$block-color2-light: lighten($block-color2, 20%);
+
+$spacing-unit:     30px;
+
+$text-color:       #464c3e;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$principal-color:  #221f73;
+$secondary-color:  #ffc526;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@import
+  "base",
+  "layout"
+;

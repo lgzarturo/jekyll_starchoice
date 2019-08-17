@@ -1,0 +1,343 @@
+.pwf {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pwf blockquote {
+  background-color: #fff;
+  padding: 1.4em;
+  letter-spacing: .013rem;
+}
+
+.pwf ul li {
+  margin-bottom: 0.975rem;
+}
+
+#navbar ul.nav li {
+  font-weight: 300;
+  font-size: 70%;
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-right {
+  margin-top: 10px;
+}
+
+.navbar-toggle {
+  margin-top: 16px;
+} 
+
+.navbar-toggle .icon-bar {
+  width: 26px;
+  height: 4px;  
+}
+
+#top--bar {
+  background-color: $principal-color;
+  color: rgba(255,255,255,0.6);
+  font-size: $xxsmall-font-size;
+  font-weight: 300;
+  letter-spacing: -.02rem;
+  padding: 6px 0;
+}
+
+#top--bar a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+
+#top--bar a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+#top--bar-social {
+  display: inline;
+  margin-left: 1em;
+}
+
+#top--bar-social ul {
+  font-size: 60%;
+  margin: 0;
+  display: inline;
+}
+
+#top--bar-social li a:hover {
+  border: none;
+}
+
+#bar--left {
+  padding-left: 0;
+}
+
+#bar--right {
+  padding-right: 0;
+  text-align: right;
+}
+
+#footer--section {
+  background-color: #222;
+  color: #fff;
+  font-size: $xsmall-font-size;
+}
+
+#footer--section strong {
+  color: $secondary-color;
+  line-height: 2em;
+}
+
+#footer--section a { 
+  color: #fff;
+  border-bottom: 1px dashed #666;
+  padding-bottom: 3px;
+}
+
+#footer--section a:hover {
+  text-decoration: none;
+  color: #999;
+}
+
+#footer--company, #footer--copy, #footer--menu {
+  padding: 36px 0;
+}
+
+#footer--company {
+  background-color: rgba(255,255,255,0.05);
+}
+
+#footer--copy {
+  background-color: rgba(255,255,255,0.05);  
+}
+
+#footer--social {
+  margin-top: -0.6em;
+  position: absolute;
+  right: 0;
+  top: 35%;  
+}
+
+#footer--social li, #top--bar-social li {
+  display: inline-block;
+  margin: 0 0.1875rem;
+}
+
+#footer--social a, #top--bar-social a {
+  border: none;
+  border-radius: 0.2em;
+  display: block;
+  line-height: 1.7em;
+  text-align: center;
+  padding: .4em .6em;
+}
+
+#footer--social a:hover, #top--bar-social a:hover {
+  background-color:  rgba(255,255,255,0.05); 
+}
+
+.panel {
+  background-attachment: scroll, scroll, scroll;
+  background-clip: border-box, border-box, border-box;
+  background-color: #F2F2F2;
+  background-origin: padding-box, padding-box, padding-box;
+  background-position: 0 0%, center center, 0 0;
+  background-repeat: repeat, no-repeat, repeat;
+  background-size: cover; 
+  margin-top: 0;
+  margin-bottom: 0;  
+  border-radius: 0;  
+}
+
+.panel--full-c1 {
+  background-color: #F2F2F2;
+  min-height: 322px;
+  padding: 30px;
+}
+
+.panel--full-c1 .container {
+  padding: 50px 0;
+}
+
+.panel--full-c1 h1 {
+  color: $principal-color;
+  font-size: 400%;
+  line-height: 1.2em;
+  margin-bottom: 1.4rem;
+  padding: 1rem;
+  border-bottom: 4px solid $principal-color;
+}
+
+.panel--full-c1 h2 {
+  color: #ffc526;
+  font-size: 100%;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.promotional--panel {
+  background-color: #31352b;
+  min-height: 322px;
+  padding: 30px;
+  color: #fff;
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), url("http://www.dalsoluciones.com/search/wp-content/uploads/2011/12/reclutamiento.gif"), none;  
+}
+
+.panel--full-hero {
+  background-color: #31352b;
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), none;
+}
+
+.coach-ejecutivo {
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), url("../img/coach-ejecutivo.jpg"), none;
+}
+
+.evaluaciones {
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), url("../img/evaluaciones.jpg"), none;
+}
+
+.headhunting {
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), url("../img/headhunting.jpg"), none;
+}
+
+.ventaja-competitiva {
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), url("../img/startalent-empresas.jpg"), none;
+}
+
+.starchoice {
+  background-image: linear-gradient(rgba(49, 53, 43, 0.8) 100%, #000), url("../img/publica-tu-curriculum.jpg"), none;
+}
+
+
+
+.panel--full-hero h1 {
+  color: #fff; 
+  padding-bottom: 1.5rem;
+  font-size: 520%;
+  border-bottom: 4px solid $secondary-color;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.well--block {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.well--sm-block {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.panel--full-hero h2 {
+  color: $secondary-color;
+  font-size: 100%;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.panel--full-hero p {
+  font-size: 116%;  
+  margin: 0;
+  color: #fff;
+}
+
+.t--s-icon {
+  font-size: 140%;
+}
+
+.lns {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.color--panel-v1, .color--panel-v1 a, .color--panel-v2, .color--panel-v2 a {
+  color: #fff;
+}
+
+.color--panel-v1 {
+  background-color: $block-color1;
+}
+
+.color--panel-v1 h4 {
+  color: $block-color1-light;
+}
+
+.color--panel-v1 a {
+  border-bottom: 1px solid $block-color1-light;
+}
+
+.color--panel-v1 a:hover {
+  text-decoration: none;
+  color: $block-color1-light;
+}
+
+.color--panel-v2 {
+  background-color: $block-color2;
+}
+
+.color--panel-v2 h4 {
+  color: $block-color2-light;
+}
+
+.color--panel-v2 a {
+  border-bottom: 1px solid $block-color2-light;
+}
+
+.color--panel-v2 a:hover {
+  text-decoration: none;
+  color: $block-color2-light;
+}
+
+.color--panel-v3, .color--panel-v4 {
+  background-color: #fff;
+}
+
+.color--panel-v3 h3, .color--panel-v3 h4 {
+  color: #7D4B80;
+}
+
+.color--panel-v4 h3, .color--panel-v4 h4 {
+  color: #82b854;
+}
+
+.color--panel-v5 {
+  color: #fff;
+  background-color: #FFB441;
+}
+
+.color--panel-v5 small {
+  text-transform: uppercase;
+}
+
+.color--panel-v5 h3 {
+  font-size: 250%;
+}
+
+.menf {
+  font-size: 110%
+}
+
+.nenf {
+  font-size: 90%;
+}
+
+.mcb {
+  background-repeat: no-repeat;
+  background-image: url('../img/more-content-below.png');
+  background-position: top center;
+}
+
+.btm {
+  margin-top: 2em;
+}
